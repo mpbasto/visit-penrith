@@ -2123,6 +2123,8 @@ blockquote small {
 
 /*     General overwrite     */
 body {
+  overflow-x: hidden;
+  position: relative;
   color: #66615b;
   font-size: 14px;
   font-weight: 300;
@@ -2136,6 +2138,8 @@ a {
 
 hr {
   border-color: #F1EAE0; }
+html {
+    overflow-x: hidden; }
 
 .icon {
   fill: #66615b; }
@@ -4666,7 +4670,9 @@ License - nucleoapp.com/license/
     right: -15px; }
 
 .presentation-title {
-  font-size: 8em;
+  overflow-x: hidden;
+  width: 100%;
+  font-size: 5em;
   font-weight: 700;
   margin: 0;
   color: #FFFFFF;
@@ -5700,7 +5706,7 @@ License - nucleoapp.com/license/
 
 @media (max-width: 1200px) {
   .presentation-page .presentation-title {
-    font-size: 7em; }
+    font-size: 5em; }
   .presentation-page .title-brand {
     max-width: 650px; } }
 

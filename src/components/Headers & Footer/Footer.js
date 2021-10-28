@@ -54,20 +54,7 @@ function Footer() {
               style={{ height: 90 }}
             />
           </a>
-        </li>
-        <li class="list-inline-item">
-          <a
-            href="https://penrithbid.co.uk/"
-            target="_blank"
-            rel="noreferrer noopener">
-            <img
-              alt="..."
-              src="https://www.penrithbid.co.uk/images/logo2.svg"
-              style={{ height: 70 }}
-              style={{ padding: 20 }}
-            />
-          </a>
-        </li>
+        </li><br /><br />
         <li class="list-inline-item">
           <a
             href="https://www.cumbriatourism.org/"

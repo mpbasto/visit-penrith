@@ -27,35 +27,36 @@ function History() {
             <HistoryHeader /><br /><br />
             <div className="main">
                 <div class="section text-center">
-                    <Row>
-                        <Col className="ml-auto mr-auto" md="8">
+                    <Container>
+                        <Row>
+                            <Col className="ml-auto mr-auto" md="8">
+                                <h2 className="title">Historic market town</h2>
+                                <h4 className="description">
+                                    The history of any town is important. After all, without history there is no heritage, and without heritage there is no past on which to build.
+                                </h4>
+                                <br />
+                                <br />
+                                <h5 className="note">
+                                    Penrith’s location – at an important intersection of routes between Scotland and England and on the main route across the Pennines – is key to its historical status as a major market town. Even today, its distinctive red sandstone buildings are full of specialist, family-run shops, cosy pubs and atmospheric old pubs, while it’s Tuesday market still does a roaring trade.
+                                </h5>
+                                <h5 className="note">
+                                    Ancient sites including a circular earthenwork bounded by a ditch (nicknamed ‘King Arthur’s Round Table’) at Eamont Bridge and the nearby monolith at Mayburgh Henge indicate that this area was inhabited during prehistoric times. Always keen to exploit good transport routes, the Romans built the fort of Voreda about six miles north of Penrith and linked it to another at Brocavum, now Brougham Castle.
 
-                            <h2 className="title">Historic market town</h2>
-                            <h4 className="description ml-5 mr-5">
-                                The history of any town is important. After all, without history there is no heritage, and without heritage there is no past on which to build.
-                            </h4>
-                            <br />
-                            <br />
-                            <h5 className="note text-left ml-5">
-                                Penrith’s location – at an important intersection of routes between Scotland and England and on the main route across the Pennines – is key to its historical status as a major market town. Even today, its distinctive red sandstone buildings are full of specialist, family-run shops, cosy pubs and atmospheric old pubs, while it’s Tuesday market still does a roaring trade.
-                            </h5>
-                            <h5 className="note text-left ml-5 mr-2">
-                                Ancient sites including a circular earthenwork bounded by a ditch (nicknamed ‘King Arthur’s Round Table’) at Eamont Bridge and the nearby monolith at Mayburgh Henge indicate that this area was inhabited during prehistoric times. Always keen to exploit good transport routes, the Romans built the fort of Voreda about six miles north of Penrith and linked it to another at Brocavum, now Brougham Castle.
+                                </h5>
+                                <br />
+                                <Button
+                                    className="btn-round mb-2"
+                                    color="info"
+                                    href="https://www.explorepenrith.org.uk/cg/panel2/"
+                                    target="_blank" rel="noreferrer noopener"
+                                >
+                                    Take the Coronation Gardens Tour
+                                </Button>
 
-                            </h5>
-                            <br />
-                            <Button
-                                className="btn-round mb-2"
-                                color="info"
-                                href="https://www.explorepenrith.org.uk/cg/panel2/"
-                                target="_blank" rel="noreferrer noopener"
-                            >
-                                Take the Coronation Gardens Tour
-                            </Button>
-
-                            <br />
-                        </Col>
-                    </Row>
+                                <br />
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
             </div>
             <div className="section section-dark text-center">
