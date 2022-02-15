@@ -21,6 +21,7 @@ import { Link } from "react-router-dom";
 function Home() {
     document.documentElement.classList.remove("nav-open");
     React.useEffect(() => {
+        document.title = "Visit Penrith | Home";
         document.body.classList.add("profile-page");
         return function cleanup() {
             document.body.classList.remove("profile-page");
