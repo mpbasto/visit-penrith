@@ -18,8 +18,12 @@
 */
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
-
+import {
+  BrowserRouter,
+  Route,
+  Redirect,
+  Switch
+} from "react-router-dom";
 
 // styles
 import "bootstrap/scss/bootstrap.scss";
@@ -30,7 +34,6 @@ import History from "./views/History.js";
 import Eat from "./views/Eat.js";
 import Sleep from "./views/Sleep.js";
 import Explore from "./views/Explore.js";
-
 
 
 ReactDOM.render(

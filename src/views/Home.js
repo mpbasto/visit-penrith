@@ -145,6 +145,19 @@ function Home() {
                         </Row>
                     </Container>
                 </div>
+                <div className="section section-dark text-center">
+                    <Container>
+                        <Row>
+                            <Col className="ml-auto mr-auto" md="8">
+                                <h2 className="title">Upcoming events</h2>
+                                <h5 className="note">Occaecat tempor duis laborum ipsum.Voluptate ipsum sit labore ex incididunt sunt consequat qui ea nisi aute eiusmod anim. Non sunt ullamco exercitation esse anim quis est. Nostrud enim qui eiusmod laborum magna sit ut aliqua incididunt sunt. Minim occaecat ad id cupidatat in laborum tempor consequat amet commodo.</h5>
+
+                            </Col>
+                        </Row>
+                        <br />
+                        <br />
+                    </Container>
+                </div>
             </div>
             <Footer />
         </>
